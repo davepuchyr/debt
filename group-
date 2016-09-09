@@ -53,4 +53,5 @@ slocate:x:21:
 tcpdump:x:72:
 dave:x:500:
 cgred:x:499:
-bumblebee:x:1000:
+bumblebee:x:1000:dave
+wireshark:x:498:

@@ -56,3 +56,5 @@ cgred:x:499:
 bumblebee:x:1000:dave
 wireshark:x:498:
 usbmon:x:497:
+setroubleshoot:x:496:
+named:x:25:

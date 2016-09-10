@@ -32,3 +32,5 @@ tss:x:59:59:Account used by the trousers package to sandbox the tcsd daemon:/dev
 tcpdump:x:72:72::/:/sbin/nologin
 dave:x:500:500:Dave Puchyr:/home/dave:/bin/bash
 setroubleshoot:x:499:496::/var/lib/setroubleshoot:/sbin/nologin
+named:x:25:25:Named:/var/named:/sbin/nologin
+apache:x:48:48:Apache:/usr/share/httpd:/sbin/nologin

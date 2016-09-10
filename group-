@@ -59,3 +59,4 @@ usbmon:x:497:
 setroubleshoot:x:496:
 named:x:25:
 apache:x:48:
+memcached:x:495:

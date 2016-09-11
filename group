@@ -61,3 +61,4 @@ named:x:25:
 apache:x:48:
 memcached:x:495:
 mysql:x:27:
+uupfa:x:1001:

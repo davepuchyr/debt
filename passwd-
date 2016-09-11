@@ -35,3 +35,5 @@ setroubleshoot:x:499:496::/var/lib/setroubleshoot:/sbin/nologin
 named:x:25:25:Named:/var/named:/sbin/nologin
 apache:x:48:48:Apache:/usr/share/httpd:/sbin/nologin
 memcached:x:498:495:Memcached daemon:/run/memcached:/sbin/nologin
+mysql:x:27:27:Percona Server:/var/lib/mysql:/bin/false
+uupfa:x:1001:1001:UUP Financial Analytics Inc.:/home/uupfa:/bin/bash

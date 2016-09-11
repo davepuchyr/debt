@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<zone target="ACCEPT">
+  <short>Trusted</short>
+  <description>All network connections are accepted.</description>
+  <source ipset="trusted_subnets"/>
+  <source ipset="trusted_hosts"/>
+  <service name="synergy"/>
+  <service name="imaps"/>
+  <service name="vnc-server"/>
+  <service name="http"/>
+  <service name="squid"/>
+  <service name="mysql"/>
+  <service name="samba"/>
+  <service name="samba-client"/>
+  <service name="https"/>
+  <service name="dns"/>
+</zone>

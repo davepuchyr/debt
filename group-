@@ -62,3 +62,6 @@ apache:x:48:
 memcached:x:495:
 mysql:x:27:
 uupfa:x:1001:
+polipo:x:494:
+saslauth:x:76:
+mailnull:x:47:

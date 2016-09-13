@@ -22,5 +22,8 @@ setroubleshoot:1410720:65536
 named:1476256:65536
 apache:1541792:65536
 memcached:1607328:65536
-# empty default subuid/subgid file
 mysql:1672864:65536
+polipo:1738400:65536
+saslauth:1803936:65536
+# empty default subuid/subgid file
+mailnull:1869472:65536

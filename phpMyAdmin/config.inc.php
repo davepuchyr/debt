@@ -93,6 +93,27 @@ $cfg['Servers'][$i]['bs_temp_blob_timeout']         // Blobstreaming: Recommente
                                      = 600;         //   DEFAULT: '600'
 $cfg['Servers'][$i]['bs_temp_log_threshold']        // Blobstreaming: Recommented default value from upstream
                                      = '32M';       //   DEFAULT: '32M'
+
+// dmjp: https://www.devside.net/wamp-server/accessing-remote-databases-using-local-phpmyadmin
+$i++;
+$cfg['Servers'][$i]['connect_type'] = 'tcp';
+$cfg['Servers'][$i]['host'] = 'nld';
+$cfg['Servers'][$i]['verbose'] = 'nld';
+$cfg['Servers'][$i]['auth_type']     = 'cookie';    // Authentication method (config, http or cookie based)?
+$cfg['Servers'][$i]['user']          = '';          // MySQL user
+$cfg['Servers'][$i]['password']      = '';          // MySQL password (only needed
+$cfg['Servers'][$i]['hide_db'] = '^(mysql|performance_schema|innodb|information_schema)$';
+
+$i++;
+$cfg['Servers'][$i]['connect_type'] = 'tcp';
+$cfg['Servers'][$i]['host'] = 'cool';
+$cfg['Servers'][$i]['verbose'] = 'cold Plano datacenter';
+$cfg['Servers'][$i]['auth_type']     = 'cookie';    // Authentication method (config, http or cookie based)?
+$cfg['Servers'][$i]['user']          = '';          // MySQL user
+$cfg['Servers'][$i]['password']      = '';          // MySQL password (only needed
+$cfg['Servers'][$i]['hide_db'] = '^(mysql|performance_schema|innodb|information_schema)$';
+// ~dmjp
+
 /*
  * End of servers configuration
  */

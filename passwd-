@@ -40,3 +40,4 @@ uupfa:x:1001:1001:UUP Financial Analytics Inc.:/home/uupfa:/bin/bash
 polipo:x:497:494:Polipo Web Proxy:/var/cache/polipo:/sbin/nologin
 saslauth:x:496:76:Saslauthd user:/run/saslauthd:/sbin/nologin
 mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
+smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin

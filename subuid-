@@ -25,5 +25,6 @@ memcached:1607328:65536
 mysql:1672864:65536
 polipo:1738400:65536
 saslauth:1803936:65536
-# empty default subuid/subgid file
 mailnull:1869472:65536
+# empty default subuid/subgid file
+smmsp:1935008:65536

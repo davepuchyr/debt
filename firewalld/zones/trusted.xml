@@ -4,14 +4,14 @@
   <description>All network connections are accepted.</description>
   <source ipset="trusted_subnets"/>
   <source ipset="trusted_hosts"/>
-  <service name="synergy"/>
-  <service name="imaps"/>
-  <service name="vnc-server"/>
-  <service name="http"/>
-  <service name="squid"/>
-  <service name="mysql"/>
-  <service name="samba"/>
-  <service name="samba-client"/>
   <service name="https"/>
+  <service name="samba-client"/>
+  <service name="synergy"/>
+  <service name="vnc-server"/>
+  <service name="samba"/>
   <service name="dns"/>
+  <service name="http"/>
+  <service name="mysql"/>
+  <service name="imaps"/>
+  <port protocol="tcp" port="3129"/>
 </zone>

@@ -1946,3 +1946,9 @@
 1474147333 phpMyAdmin 4.6.4 2.fc24 noarch
 1474148491 hostapd 2.5 2.fc24 x86_64
 1474148491 hostapd-logwatch 2.5 2.fc24 x86_64
+1474149223 dhcp-compat 4.3.4 3.fc24 x86_64
+1474149223 dhcp-relay 4.3.4 3.fc24 x86_64
+1474149223 dhcp-server 4.3.4 3.fc24 x86_64
+1474156993 tftp-server 5.2 18.fc24 x86_64
+1474163765 xorg-x11-fonts-misc 7.5 16.fc24 noarch
+1474163766 xosd 2.2.14 23.fc24 x86_64

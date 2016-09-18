@@ -105,6 +105,7 @@ alias mysqldump='mysqldump --skip-opt --add-drop-table --add-locks --create-opti
 alias vncviewer='vncviewer DotWhenNoCursor=1'
 alias mpg123='mpg123 --verbose --control --title --long-tag'
 alias dracut='dracut -v --add resume'
+alias synergys='synergys -d ERROR'
 
 # The next line updates PATH for the Google Cloud SDK.
 #source '/opt/google-cloud-sdk/path.bash.inc'

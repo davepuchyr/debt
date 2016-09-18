@@ -1,0 +1,10 @@
+
+module my-dhcpd 1.0;
+
+require {
+	type dhcpd_t;
+	class capability fowner;
+}
+
+#============= dhcpd_t ==============
+allow dhcpd_t self:capability fowner;

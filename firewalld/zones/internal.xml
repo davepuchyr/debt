@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<zone>
+  <short>Internal</short>
+  <description>For use on internal networks. You mostly trust the other computers on the networks to not harm your computer. Only selected incoming connections are accepted.</description>
+  <interface name="wlp110s0"/>
+  <service name="http"/>
+  <service name="samba-client"/>
+  <service name="https"/>
+  <service name="dhcp"/>
+  <service name="synergy"/>
+  <service name="ssh"/>
+  <service name="mdns"/>
+  <service name="mysql"/>
+  <service name="dhcpv6-client"/>
+</zone>

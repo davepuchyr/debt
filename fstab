@@ -8,5 +8,5 @@
 #
 UUID=1f834cd3-273f-4744-a472-0918135adde8 /                       ext4    defaults,noatime        1 1
 UUID=a003de87-fe69-468c-93be-80423ca2664f /boot                   ext2    defaults,noatime        1 2
-/dev/sda1                                 /home/archive           ext4    defaults,noatime,noauto        0 0
+/dev/sda1                                 /home/archive           ext4    defaults,noatime        0 0
 

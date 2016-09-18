@@ -27,5 +27,7 @@ polipo:1738400:65536
 saslauth:1803936:65536
 mailnull:1869472:65536
 smmsp:1935008:65536
-# empty default subuid/subgid file
 nginx:2000544:65536
+dhcpd:2066080:65536
+# empty default subuid/subgid file
+dovecot:2131616:65536

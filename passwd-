@@ -42,3 +42,5 @@ saslauth:x:496:76:Saslauthd user:/run/saslauthd:/sbin/nologin
 mailnull:x:47:47::/var/spool/mqueue:/sbin/nologin
 smmsp:x:51:51::/var/spool/mqueue:/sbin/nologin
 nginx:x:495:493:Nginx web server:/var/lib/nginx:/sbin/nologin
+dhcpd:x:177:177:DHCP server:/:/sbin/nologin
+dovecot:x:97:97:Dovecot IMAP server:/usr/libexec/dovecot:/sbin/nologin

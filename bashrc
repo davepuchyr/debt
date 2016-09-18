@@ -104,7 +104,7 @@ alias tidy='tidy -utf8 --indent-spaces 3 --merge-divs 0 --merge-spans 0 -w 256 -
 alias mysqldump='mysqldump --skip-opt --add-drop-table --add-locks --create-options --quick --lock-tables --set-charset --disable-keys -c'
 alias vncviewer='vncviewer DotWhenNoCursor=1'
 alias mpg123='mpg123 --verbose --control --title --long-tag'
-alias dracut='dracut -v --add resume'
+alias dracut='dracut -v --add resume --omit-drivers nouveau'
 alias synergys='synergys -d ERROR'
 
 # The next line updates PATH for the Google Cloud SDK.

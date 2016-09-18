@@ -1,0 +1,10 @@
+
+module my-nmbd 1.0;
+
+require {
+	type nmbd_t;
+	class capability net_admin;
+}
+
+#============= nmbd_t ==============
+allow nmbd_t self:capability net_admin;

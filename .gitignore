@@ -11,7 +11,7 @@ pki
 **/*.save
 cups/subscriptions.conf*
 mail/sendmail.cf.bak
-mail/client-info*
+mail/authinfo*
 ntp.conf
 **/tmp
 

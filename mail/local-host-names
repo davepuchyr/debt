@@ -1,1 +1,9 @@
 # local-host-names - include all aliases for your machine here.
+# dmjp
+127.0.0.1
+localhost
+localhost.localdomain
+
+debt.anoxymous.com
+debt.avaritia.com
+

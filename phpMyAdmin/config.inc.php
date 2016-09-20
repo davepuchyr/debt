@@ -112,6 +112,15 @@ $cfg['Servers'][$i]['auth_type']     = 'cookie';    // Authentication method (co
 $cfg['Servers'][$i]['user']          = '';          // MySQL user
 $cfg['Servers'][$i]['password']      = '';          // MySQL password (only needed
 $cfg['Servers'][$i]['hide_db'] = '^(mysql|performance_schema|innodb|information_schema)$';
+
+$i++;
+$cfg['Servers'][$i]['connect_type'] = 'tcp';
+$cfg['Servers'][$i]['host'] = 'ocho';
+$cfg['Servers'][$i]['verbose'] = 'ocho';
+$cfg['Servers'][$i]['auth_type']     = 'cookie';    // Authentication method (config, http or cookie based)?
+$cfg['Servers'][$i]['user']          = '';          // MySQL user
+$cfg['Servers'][$i]['password']      = '';          // MySQL password (only needed
+$cfg['Servers'][$i]['hide_db'] = '^(mysql|performance_schema|innodb|information_schema)$';
 // ~dmjp
 
 /*

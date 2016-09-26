@@ -70,3 +70,4 @@ nginx:x:493:
 dhcpd:x:177:
 dovecot:x:97:
 dovenull:x:492:
+nx:x:1002:

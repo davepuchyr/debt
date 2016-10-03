@@ -2072,3 +2072,9 @@
 1474922837 mesa-dri-drivers 12.0.3 1.fc24 i686
 1474922837 turbojpeg 1.5.0 4.fc24 i686
 1474924672 libva-intel-driver 1.7.2 1.fc24 x86_64
+1475093957 gvfs-mtp 1.28.3 1.fc24 x86_64
+1475095262 gvfs-gphoto2 1.28.3 1.fc24 x86_64
+1475096030 libmtp-examples 1.1.11 1.fc24 x86_64
+1475192748 heimdall 1.4.1 8.fc24 x86_64
+1475192749 heimdall-frontend 1.4.1 8.fc24 x86_64
+1475472917 arandr 0.1.9 1.fc24 noarch

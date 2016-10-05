@@ -90,3 +90,11 @@ export PATH=$PATH:/opt/gradle/bin:/opt/android-sdk-linux/tools:/opt/android-sdk-
 #PATH=${CUDA_HOME}/bin:${PATH}
 #export PATH
 
+export TEST_DB_PANDA_USER=dave
+export TEST_DB_PANDA_PORT=3306
+export TEST_DB_PANDA_PASSWORD=quickcash
+export TEST_DB_PANDA_DATABASE=cppconn_test
+export TEST_DB_PANDA_HOST=localhost
+export TEST_IB_HOST=vyoga
+export TEST_IB_PORT=7496
+

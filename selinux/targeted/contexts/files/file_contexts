@@ -2522,6 +2522,7 @@
 /usr/X11R6/lib/X11/fonts(/.*)?	system_u:object_r:fonts_t:s0
 /usr/share/mojomojo/root(/.*)?	system_u:object_r:mojomojo_content_t:s0
 /var/lib/containers/home(/.*)?	system_u:object_r:openshift_var_lib_t:s0
+/etc/sysconfig/oracleasm(/.*)?	system_u:object_r:oracleasm_conf_t:s0
 /var/lib/openlmi-storage(/.*)?	system_u:object_r:pegasus_openlmi_storage_lib_t:s0
 /var/run/openlmi-storage(/.*)?	system_u:object_r:pegasus_openlmi_storage_var_run_t:s0
 /var/spool/postfix/defer(/.*)?	system_u:object_r:postfix_spool_t:s0

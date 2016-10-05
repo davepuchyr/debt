@@ -1,5 +1,5 @@
 #
-# Optional arguments passed to in-kernel lockd 
+# Optional arguments passed to in-kernel lockd
 #LOCKDARG=
 # TCP port rpc.lockd should listen on.
 #LOCKD_TCPPORT=32803
@@ -9,9 +9,9 @@
 # Optional arguments passed to rpc.nfsd. See rpc.nfsd(8)
 RPCNFSDARGS=""
 # Number of nfs server processes to be started.
-# The default is 8. 
+# The default is 8.
 # RPCNFSDCOUNT=16
-#   
+#
 # Set V4 grace period in seconds
 #NFSD_V4_GRACE=90
 #

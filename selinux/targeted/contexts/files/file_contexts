@@ -1424,7 +1424,6 @@
 /var/log/maillog[^/]*	system_u:object_r:var_log_t:s0
 /var/log/spooler[^/]*	system_u:object_r:var_log_t:s0
 /boot/System\.map(-.*)?	--	system_u:object_r:system_map_t:s0
-/var/lib/roundup(/.*)?	--	system_u:object_r:roundup_var_lib_t:s0
 /var/cache/swift(/.*)?	--	system_u:object_r:swift_var_cache_t:s0
 /usr/sbin/crack_[a-z]*	--	system_u:object_r:crack_exec_t:s0
 /var/spool/debug(/.*)?	system_u:object_r:abrt_var_cache_t:s0
@@ -1543,6 +1542,7 @@
 /var/lib/haproxy(/.*)?	system_u:object_r:haproxy_var_lib_t:s0
 /var/lib/openais(/.*)?	system_u:object_r:cluster_var_lib_t:s0
 /var/lib/pengine(/.*)?	system_u:object_r:cluster_var_lib_t:s0
+/var/lib/roundup(/.*)?	system_u:object_r:roundup_var_lib_t:s0
 /var/lib/rpcbind(/.*)?	system_u:object_r:rpcbind_var_lib_t:s0
 /var/cache/samba(/.*)?	system_u:object_r:samba_var_t:s0
 /var/spool/samba(/.*)?	system_u:object_r:samba_spool_t:s0
@@ -3016,6 +3016,7 @@
 /usr/lib/policykit/polkit-grant-helper.*	--	system_u:object_r:policykit_grant_exec_t:s0
 /usr/libexec/polkit-resolve-exe-helper.*	--	system_u:object_r:policykit_resolve_exec_t:s0
 /usr/lib/systemd/system/corosync-qnetd.*	--	system_u:object_r:cluster_unit_file_t:s0
+/usr/lib/systemd/system-generators/nfs.*	--	system_u:object_r:nfsd_exec_t:s0
 /usr/share/squeezeboxserver/CPAN/arch/.+\.so	--	system_u:object_r:textrel_shlib_t:s0
 /ostree/deploy/rhel-atomic-host/deploy(/.*)?	system_u:object_r:system_conf_t:s0
 /etc/NetworkManager/system-connections(/.*)?	system_u:object_r:NetworkManager_etc_rw_t:s0

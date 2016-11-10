@@ -1,0 +1,6 @@
+[cuda-8-0-local]
+name=cuda-8-0-local
+baseurl=file:///var/cuda-repo-8-0-local
+enabled=1
+gpgcheck=1
+gpgkey=file:///var/cuda-repo-8-0-local/7fa2af80.pub

@@ -54,7 +54,7 @@ tcpdump:x:72:
 dave:x:500:
 cgred:x:499:
 bumblebee:x:1000:dave
-wireshark:x:498:
+wireshark:x:498:dave
 usbmon:x:497:
 setroubleshoot:x:496:
 named:x:25:

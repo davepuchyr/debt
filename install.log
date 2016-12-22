@@ -2163,3 +2163,12 @@
 1481838684 cracklib 2.9.6 4.fc24 i686
 1481838684 gnutls 3.4.17 1.fc24 i686
 1481838684 libtiff 4.0.7 1.fc24 i686
+1481904849 libopenshot-audio 0.1.2 1.fc24 x86_64
+1481904850 libopenshot 0.1.2 1.fc24 x86_64
+1481904850 python3-httplib2 0.9.2 2.fc24 noarch
+1481904850 python3-libopenshot 0.1.2 1.fc24 x86_64
+1481904850 python3-qt5 5.6 6.fc24 x86_64
+1481904850 python3-qt5-webkit 5.6 6.fc24 x86_64
+1481904850 python3-zmq 14.7.0 6.fc24 x86_64
+1481904856 openshot 2.1.0 2.fc24 noarch
+1481904856 openshot-lang 2.1.0 2.fc24 noarch

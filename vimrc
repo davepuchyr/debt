@@ -67,3 +67,6 @@ let &guicursor = &guicursor . ",a:blinkon0"
 au FileType * setl fo=cql
 au BufNewFile,BufRead *.gradle setf groovy
 
+" dmjp: disable visual mouse editing
+set mouse-=a
+

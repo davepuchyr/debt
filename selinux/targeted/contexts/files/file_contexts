@@ -4987,6 +4987,7 @@
 /usr/bin/corosync-qnetd	--	system_u:object_r:cluster_exec_t:s0
 /usr/libexec/modcluster	--	system_u:object_r:ricci_modcluster_exec_t:s0
 /usr/bin/roundup-server	--	system_u:object_r:roundup_exec_t:s0
+/var/run/rpc\.statd\.lock	--	system_u:object_r:rpcd_lock_t:s0
 /usr/bin/yum-deprecated	--	system_u:object_r:rpm_exec_t:s0
 /usr/kerberos/sbin/kshd	--	system_u:object_r:rshd_exec_t:s0
 /var/run/samba/nmbd\.pid	--	system_u:object_r:nmbd_var_run_t:s0

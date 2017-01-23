@@ -111,8 +111,12 @@ alias synergyc='synergyc -d ERROR'
 alias synergys='synergys -d ERROR'
 
 # The next line updates PATH for the Google Cloud SDK.
-#source '/opt/google-cloud-sdk/path.bash.inc'
+if [ -f /opt/google-cloud-sdk/path.bash.inc ]; then
+  source '/opt/google-cloud-sdk/path.bash.inc'
+fi
 
 # The next line enables shell command completion for gcloud.
-#source '/opt/google-cloud-sdk/completion.bash.inc'
+if [ -f /opt/google-cloud-sdk/completion.bash.inc ]; then
+  source '/opt/google-cloud-sdk/completion.bash.inc'
+fi
 

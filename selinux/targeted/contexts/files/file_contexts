@@ -3003,6 +3003,7 @@
 /usr/share/munin/plugins/courier_mta_.*	--	system_u:object_r:mail_munin_plugin_exec_t:s0
 /usr/share/munin/plugins/postfix_mail.*	--	system_u:object_r:mail_munin_plugin_exec_t:s0
 /etc/sysconfig/network-scripts/ifdown.*	system_u:object_r:bin_t:s0
+/usr/libexec/glusterfs/peer_eventsapi.py	--	system_u:object_r:glusterd_exec_t:s0
 /var/run/dovecot/login/ssl-parameters.dat	--	system_u:object_r:dovecot_var_lib_t:s0
 /usr/lib/nagios/plugins/eventhandlers(/.*)	system_u:object_r:nagios_eventhandler_plugin_exec_t:s0
 /usr/lib/icinga/plugins/eventhandlers(/.*)	system_u:object_r:nagios_eventhandler_plugin_exec_t:s0
@@ -3053,6 +3054,7 @@
 /usr/lib/systemd/system/openstack-glance-api.*	--	system_u:object_r:glance_api_unit_file_t:s0
 /usr/lib/systemd/system/pkcs11proxyd-softhsm.*	--	system_u:object_r:pkcs11proxyd_unit_file_t:s0
 /usr/lib/policykit/polkit-resolve-exe-helper.*	--	system_u:object_r:policykit_resolve_exec_t:s0
+/usr/libexec/glusterfs/events/glustereventsd.py	--	system_u:object_r:glusterd_exec_t:s0
 /opt/OpenPrinting-Gutenprint/cups/lib/filter(/.*)?	system_u:object_r:bin_t:s0
 /usr/share/mirrormanager/server/mirrormanager(/.*)?	system_u:object_r:mirrormanager_exec_t:s0
 /usr/share/gedit-2/plugins/externaltools/tools(/.*)?	system_u:object_r:bin_t:s0
@@ -3134,6 +3136,7 @@
 /fastboot	--	system_u:object_r:etc_runtime_t:s0
 /poweroff	--	system_u:object_r:etc_runtime_t:s0
 /sbin/nft	--	system_u:object_r:iptables_exec_t:s0
+/sbin/sln	--	system_u:object_r:ldconfig_exec_t:s0
 /sbin/lvm	--	system_u:object_r:lvm_exec_t:s0
 /sbin/lvs	--	system_u:object_r:lvm_exec_t:s0
 /sbin/pvs	--	system_u:object_r:lvm_exec_t:s0
@@ -5060,6 +5063,7 @@
 /usr/bin/gl-auth-command	--	system_u:object_r:gitosis_exec_t:s0
 /usr/bin/glance-registry	--	system_u:object_r:glance_registry_exec_t:s0
 /usr/bin/glance-scrubber	--	system_u:object_r:glance_scrubber_exec_t:s0
+/usr/sbin/glustereventsd	--	system_u:object_r:glusterd_exec_t:s0
 /etc/rc\.d/init\.d/hddtemp	--	system_u:object_r:hddtemp_initrc_exec_t:s0
 /etc/rc\.d/init\.d/icecast	--	system_u:object_r:icecast_initrc_exec_t:s0
 /usr/libexec/news/expire	--	system_u:object_r:innd_exec_t:s0
@@ -5377,6 +5381,7 @@
 /usr/sbin/printconf-backend	--	system_u:object_r:cupsd_config_exec_t:s0
 /var/www/cgi-bin/cvsweb\.cgi	--	system_u:object_r:cvs_script_exec_t:s0
 /var/run/audio-entropyd\.pid	--	system_u:object_r:entropyd_var_run_t:s0
+/usr/sbin/gluster-eventsapi	--	system_u:object_r:glusterd_exec_t:s0
 /usr/lib/hsqldb/hsqldb-post	--	system_u:object_r:hsqldb_exec_t:s0
 /usr/lib/hsqldb/hsqldb-stop	--	system_u:object_r:hsqldb_exec_t:s0
 /usr/sbin/hwloc-dump-hwdata	--	system_u:object_r:hwloc_dhwd_exec_t:s0

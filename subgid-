@@ -31,5 +31,6 @@ nginx:2000544:65536
 dhcpd:2066080:65536
 dovecot:2131616:65536
 dovenull:2197152:65536
-# empty default subuid/subgid file
 nx:2262688:65536
+# empty default subuid/subgid file
+usbmuxd:2328224:65536

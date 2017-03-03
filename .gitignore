@@ -15,4 +15,5 @@ mail/authinfo*
 ntp.conf
 **/tmp
 **/*.bak
+tomcat/tomcat-users.xml
 

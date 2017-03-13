@@ -1,0 +1,11 @@
+
+module my-rpcmountd 1.0;
+
+require {
+	type nfsd_t;
+	type nvme_device_t;
+	class blk_file read;
+}
+
+#============= nfsd_t ==============
+allow nfsd_t nvme_device_t:blk_file read;

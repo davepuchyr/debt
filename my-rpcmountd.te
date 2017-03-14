@@ -2,10 +2,13 @@
 module my-rpcmountd 1.0;
 
 require {
-	type nfsd_t;
 	type nvme_device_t;
-	class blk_file read;
+	type nfsd_t;
+	class blk_file { ioctl open read };
 }
 
 #============= nfsd_t ==============
-allow nfsd_t nvme_device_t:blk_file read;
+allow nfsd_t nvme_device_t:blk_file ioctl;
+
+#!!!! This avc is allowed in the current policy
+allow nfsd_t nvme_device_t:blk_file { open read };

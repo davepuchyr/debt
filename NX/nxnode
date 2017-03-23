@@ -97,7 +97,7 @@ fi
 export LD_LIBRARY_PATH="$ROOTDIR/lib:$ROOTDIR/lib/perl:$ROOTDIR/lib/perl/include:$ROOTDIR/lib/perl/nxnode:$ROOTDIR/lib/perl/libperl"
 export PATH="$ROOTDIR/lib:$ROOTDIR/lib/perl:$ROOTDIR/lib/perl/include:$ROOTDIR/lib/perl/nxnode:$PATH"
 export PERL5LIB="$ROOTDIR/lib:$ROOTDIR/lib/perl:$ROOTDIR/lib/perl/include:$ROOTDIR/lib/perl/nxnode:$ROOTDIR/lib/perl/libperl"
-export PERL5INCLUDE="$ROOTDIR/lib/perl/include:$ROOTDIR/lib/perl/nxnode:$ROOTDIR/lib/perl/libperl"
+export PERL5INCLUDE="$ROOTDIR/lib/perl/nxnode"
 export NX_SYSTEM="$ROOTDIR"
 
 if test $ENABLED_DEBUG = 0;

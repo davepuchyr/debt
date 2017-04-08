@@ -596,7 +596,6 @@
 1473426590 cups-filters-libs 1.9.0 1.fc24 x86_64
 1473426592 bcache-tools 1.0.8 6.fc24 x86_64
 1473426592 libblockdev-kbd 1.6 1.fc24 x86_64
-1473426592 python3-dnf-plugins-core 0.1.21 3.fc24 noarch
 1473426592 python3-pygpgme 0.3 18.fc24 x86_64
 1473426592 python3-pysocks 1.5.6 4.fc24 noarch
 1473426592 python3-urllib3 1.15.1 3.fc24 noarch
@@ -663,7 +662,6 @@
 1473426635 xorg-x11-drv-openchrome 0.5.0 1.fc24 x86_64
 1473426640 at-spi2-core 2.20.2 2.fc24 x86_64
 1473426640 avahi 0.6.32 4.fc24 x86_64
-1473426641 dnf-plugins-core 0.1.21 3.fc24 noarch
 1473426641 fpaste 0.3.8.3 1.fc24 noarch
 1473426641 python3-requests 2.10.0 2.fc24 noarch
 1473426642 gettext 0.19.8.1 2.fc24 x86_64
@@ -1259,8 +1257,6 @@
 1474147331 libzip 1.1.2 1.fc24 x86_64
 1474147332 libtidy 5.1.25 1.fc24 x86_64
 1474147332 t1lib 5.1.2 18.fc24 x86_64
-1474148491 hostapd 2.5 2.fc24 x86_64
-1474148491 hostapd-logwatch 2.5 2.fc24 x86_64
 1474149223 dhcp-compat 4.3.4 3.fc24 x86_64
 1474149223 dhcp-relay 4.3.4 3.fc24 x86_64
 1474149223 dhcp-server 4.3.4 3.fc24 x86_64
@@ -1954,10 +1950,8 @@
 1486993502 bumblebee 3.2.1 13.fc24 x86_64
 1486993507 libdrm 2.4.75 1.fc24 x86_64
 1486993507 openssl-libs 1.0.2k 1.fc24 x86_64
-1486993509 goffice 0.10.33 1.fc24 x86_64
 1486993509 libfastjson 0.99.4 1.fc24 x86_64
 1486993539 primus 1.1.03282015 4.fc24 x86_64
-1486993541 gnumeric 1.12.33 1.fc24 x86_64
 1486993542 libdrm-devel 2.4.75 1.fc24 x86_64
 1486993542 openssl 1.0.2k 1.fc24 x86_64
 1486993543 openssl-devel 1.0.2k 1.fc24 x86_64
@@ -2044,9 +2038,7 @@
 1489171181 rpm-python 4.13.0.1 1.fc24 x86_64
 1489171181 tomcat-admin-webapps 8.0.41 1.fc24 noarch
 1489171181 tomcat-webapps 8.0.41 1.fc24 noarch
-1489171182 libsolv 0.6.26 1.fc24 x86_64
 1489171182 rpm-plugin-systemd-inhibit 4.13.0.1 1.fc24 x86_64
-1489171185 code 1.10.2 1488981323.el7 x86_64
 1489171185 util-linux-user 2.28.2 2.fc24 x86_64
 1489171189 bind 9.10.4 3.P6.fc24 x86_64
 1489171190 qt5-qtbase-devel 5.6.2 3.fc24 x86_64
@@ -2092,13 +2084,11 @@
 1489525611 libwmf-lite 0.2.8.4 50.fc24 x86_64
 1489525611 perl 5.22.3 370.fc24 x86_64
 1489525611 rb_libtorrent 1.1.2 1.fc24 x86_64
-1489525613 hawkey 0.6.4 1.fc24 x86_64
 1489525614 firewall-config 0.4.4.3 2.fc24 noarch
 1489525614 firewalld 0.4.4.3 2.fc24 noarch
 1489525614 firewalld-filesystem 0.4.4.3 2.fc24 noarch
 1489525614 libwmf 0.2.8.4 50.fc24 x86_64
 1489525614 python3-firewall 0.4.4.3 2.fc24 noarch
-1489525614 python3-hawkey 0.6.4 1.fc24 x86_64
 1489525643 audit-libs-python3 2.7.3 1.fc24 x86_64
 1489525643 perl-devel 5.22.3 370.fc24 x86_64
 1489525643 perl-IO-Zlib 1.10 370.fc24 noarch
@@ -2137,7 +2127,6 @@
 1489947328 kf5-kdbusaddons 5.32.0 1.fc24 x86_64
 1489947328 kf5-kjobwidgets 5.32.0 1.fc24 x86_64
 1489947328 kf5-kwindowsystem 5.32.0 1.fc24 x86_64
-1489947329 kf5-kcrash 5.32.0 1.fc24 x86_64
 1489947329 kf5-kitemviews 5.32.0 1.fc24 x86_64
 1489947329 kf5-knotifications 5.32.0 1.fc24 x86_64
 1489947329 kf5-kpackage 5.32.0 1.fc24 x86_64
@@ -2237,3 +2226,14 @@
 1491296031 kernel-headers 4.10.8 100.fc24 x86_64
 1491296038 kernel-devel 4.10.8 100.fc24 x86_64
 1491296064 nss-softokn-freebl 3.29.3 1.0.fc24 i686
+1491662759 goffice 0.10.34 1.fc24 x86_64
+1491662759 hawkey 0.6.4 2.fc24 x86_64
+1491662759 hostapd 2.5 5.fc24 x86_64
+1491662759 libsolv 0.6.26 3.fc24 x86_64
+1491662759 python3-dnf-plugins-core 0.1.21 5.fc24 noarch
+1491662759 python3-hawkey 0.6.4 2.fc24 x86_64
+1491662762 dnf-plugins-core 0.1.21 5.fc24 noarch
+1491662762 gnumeric 1.12.34 1.fc24 x86_64
+1491662762 hostapd-logwatch 2.5 5.fc24 x86_64
+1491662762 kf5-kcrash 5.32.0 2.fc24 x86_64
+1491662765 code 1.11.1 1491487117.el7 x86_64

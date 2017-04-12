@@ -74,3 +74,6 @@ nx:x:1002:
 systemd-coredump:x:986:
 usbmuxd:x:113:
 tomcat:x:91:
+unbound:x:491:
+akmods:x:490:
+nvidia-persistenced:x:489:

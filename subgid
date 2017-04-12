@@ -33,5 +33,8 @@ dovecot:2131616:65536
 dovenull:2197152:65536
 nx:2262688:65536
 usbmuxd:2328224:65536
-# empty default subuid/subgid file
 tomcat:2393760:65536
+unbound:2459296:65536
+akmods:2524832:65536
+# empty default subuid/subgid file
+nvidia-persistenced:2590368:65536

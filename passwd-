@@ -48,3 +48,6 @@ dovenull:x:494:492:Dovecot's unauthorized user:/usr/libexec/dovecot:/sbin/nologi
 nx:x:493:1002::/var/NX/nx:/etc/NX/nxserver
 systemd-coredump:x:986:986:systemd Core Dumper:/:/sbin/nologin
 usbmuxd:x:113:113:usbmuxd user:/:/sbin/nologin
+tomcat:x:91:91:Apache Tomcat:/usr/share/tomcat:/sbin/nologin
+unbound:x:492:491:Unbound DNS resolver:/etc/unbound:/sbin/nologin
+akmods:x:491:490:User is used by akmods to build akmod packages:/var/cache/akmods/:/sbin/nologin

@@ -1,0 +1,17 @@
+[fedora-nvidia]
+name=negativo17 - Nvidia
+baseurl=http://negativo17.org/repos/nvidia/fedora-$releasever/$basearch/
+enabled=1
+skip_if_unavailable=1
+gpgcheck=1
+gpgkey=http://negativo17.org/repos/RPM-GPG-KEY-slaanesh
+enabled_metadata=1
+
+[fedora-nvidia-source]
+name=negativo17 - Nvidia - Source
+baseurl=http://negativo17.org/repos/nvidia/fedora-$releasever/SRPMS
+enabled=0
+skip_if_unavailable=1
+gpgcheck=1
+gpgkey=http://negativo17.org/repos/RPM-GPG-KEY-slaanesh
+enabled_metadata=1

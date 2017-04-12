@@ -83,8 +83,9 @@ export BROWSER=google-chrome
 #export PATH=$PATH:/opt/crosstool-ng/bin:/opt/gradle/bin:/opt/android-sdks/platform-tools:/opt/android-sdks/tools:/opt/activator
 export PATH=$PATH:/opt/gradle/bin:/opt/node/bin:/opt/android-sdk-linux/tools:/opt/android-sdk-linux/platform-tools
 
+# dmjp: negativo17's cuda packages
 # dmjp: http://www.r-tutor.com/gpu-computing/cuda-installation/cuda7.5-fc21
-#export CUDA_HOME=/usr/local/cuda-7.5
+#export CUDA_HOME=/usr/local/cuda-8.0
 #export LD_LIBRARY_PATH=${CUDA_HOME}/lib64
 
 #PATH=${CUDA_HOME}/bin:${PATH}

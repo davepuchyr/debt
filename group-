@@ -76,3 +76,7 @@ usbmuxd:x:113:
 tomcat:x:91:
 unbound:x:491:
 akmods:x:490:
+nvidia-persistenced:x:489:
+stapusr:x:156:
+stapsys:x:157:
+stapdev:x:158:

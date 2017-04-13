@@ -2426,3 +2426,8 @@
 1492077221 gperf 3.0.4 12.fc24 x86_64
 1492077221 mercurial 3.7.3 1.fc24 x86_64
 1492112392 intellinuxgraphics-repo 2.0.3 24.intel20163 noarch
+1492112923 dkms-nvidia 378.13 2.fc24 x86_64
+1492113595 cuda-cli-tools 8.0.61 1.fc24 x86_64
+1492113765 nvenc 7.1.9 1.fc24 noarch
+1492113773 cuda-extra-libs 8.0.61 1.fc24 x86_64
+1492113773 cuda-nvvp 8.0.61 1.fc24 x86_64

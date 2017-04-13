@@ -1561,7 +1561,6 @@
 1480792550 perl-Compress-Bzip2 2.25 1.fc24 x86_64
 1480792551 chrony 2.4.1 1.fc24 x86_64
 1480792551 http-parser 2.7.1 3.fc24 x86_64
-1480792551 intellinuxgraphics-repo 2.0.3 24.intel20163 noarch
 1480792556 libselinux 2.5 12.fc24 i686
 1480792556 libsepol 2.5 10.fc24 i686
 1480792556 libsndfile 1.0.27 1.fc24 i686
@@ -2426,3 +2425,4 @@
 1492077221 bison 3.0.4 4.fc24 x86_64
 1492077221 gperf 3.0.4 12.fc24 x86_64
 1492077221 mercurial 3.7.3 1.fc24 x86_64
+1492112392 intellinuxgraphics-repo 2.0.3 24.intel20163 noarch

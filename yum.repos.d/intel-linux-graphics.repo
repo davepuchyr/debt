@@ -1,8 +1,0 @@
-# https://ask.fedoraproject.org/en/question/24736/how-to-install-intel-linux-graphics-drivers-using-the-official-installer/?answer=96058#post-id-96058
-[intel-linux-graphics]
-name=Intel Open Source Technology Center
-baseurl=https://download.01.org/gfx/fedora/$releasever/
-gpgkey=https://download.01.org/gfx/RPM-GPG-GROUP-KEY-ilg
-gpgcheck=1
-enabled=1
-

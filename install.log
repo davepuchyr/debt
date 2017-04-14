@@ -1765,7 +1765,6 @@
 1485139777 libmpg123 1.22.4 1.fc24 x86_64
 1485139777 lirc-libs 0.9.4c 7.fc24 x86_64
 1485156665 perl-encoding 2.17 11.fc24 x86_64
-1485932878 cups-libs 2.1.4 3.fc24 x86_64
 1485932878 php-common 5.6.30 1.fc24 x86_64
 1485932880 ibus 1.5.13 4.fc24 x86_64
 1485932880 ibus-gtk2 1.5.13 4.fc24 x86_64
@@ -1789,7 +1788,6 @@
 1485932888 ghostscript-core 9.20 6.fc24 x86_64
 1485932888 ghostscript-x11 9.20 6.fc24 x86_64
 1485932888 python-beautifulsoup4 4.5.3 1.fc24 noarch
-1485932889 cups-client 2.1.4 3.fc24 x86_64
 1485932889 php-bcmath 5.6.30 1.fc24 x86_64
 1485932889 php-pdo 5.6.30 1.fc24 x86_64
 1485932889 php-process 5.6.30 1.fc24 x86_64
@@ -1807,14 +1805,12 @@
 1485932905 NetworkManager 1.2.6 1.fc24 x86_64
 1485932905 NetworkManager-libnm 1.2.6 1.fc24 x86_64
 1485932906 ca-certificates 2017.2.11 1.0.fc24 noarch
-1485932906 cups-filesystem 2.1.4 3.fc24 noarch
 1485932906 dnf 1.1.10 4.fc24 noarch
 1485932906 dnf-conf 1.1.10 4.fc24 noarch
 1485932906 python3-dnf 1.1.10 4.fc24 noarch
 1485932911 compiler-rt 3.8.1 1.fc24 x86_64
 1485932912 clang-libs 3.8.1 1.fc24 x86_64
 1485932913 clang 3.8.1 1.fc24 x86_64
-1485932915 cups 2.1.4 3.fc24 x86_64
 1485932915 dnf-yum 1.1.10 4.fc24 noarch
 1485932915 NetworkManager-adsl 1.2.6 1.fc24 x86_64
 1485932915 NetworkManager-glib 1.2.6 1.fc24 x86_64
@@ -1858,7 +1854,6 @@
 1485932973 iwl135-firmware 18.168.6.1 69.fc24 noarch
 1485932973 iwl2000-firmware 18.168.6.1 69.fc24 noarch
 1485932973 iwl2030-firmware 18.168.6.1 69.fc24 noarch
-1485932974 cups-libs 2.1.4 3.fc24 i686
 1485932978 libtiff 4.0.7 2.fc24 i686
 1485932978 opus 1.1.3 2.fc24 i686
 1486356758 simplescreenrecorder 0.3.8 1.fc24 x86_64
@@ -1951,13 +1946,8 @@
 1489171163 rpm-build-libs 4.13.0.1 1.fc24 x86_64
 1489171163 rpm-plugin-selinux 4.13.0.1 1.fc24 x86_64
 1489171163 spotify-openssl 1.0.0t 3.fc24 x86_64
-1489171163 tomcat-el-3.0-api 8.0.41 1.fc24 noarch
-1489171163 tomcat-servlet-3.1-api 8.0.41 1.fc24 noarch
 1489171169 spotify-ffmpeg 0.10.16 3.fc24 x86_64
 1489171170 java-1.8.0-openjdk 1.8.0.121 8.b14.fc24 x86_64
-1489171170 tomcat 8.0.41 1.fc24 noarch
-1489171170 tomcat-jsp-2.3-api 8.0.41 1.fc24 noarch
-1489171170 tomcat-lib 8.0.41 1.fc24 noarch
 1489171171 babl 0.1.24 1.fc24 x86_64
 1489171171 bind99-license 9.9.9 4.P6.fc24 noarch
 1489171171 libbsd 0.8.3 1.fc24 i686
@@ -1968,8 +1958,6 @@
 1489171181 rpm-build 4.13.0.1 1.fc24 x86_64
 1489171181 rpm-python3 4.13.0.1 1.fc24 x86_64
 1489171181 rpm-python 4.13.0.1 1.fc24 x86_64
-1489171181 tomcat-admin-webapps 8.0.41 1.fc24 noarch
-1489171181 tomcat-webapps 8.0.41 1.fc24 noarch
 1489171182 rpm-plugin-systemd-inhibit 4.13.0.1 1.fc24 x86_64
 1489171185 util-linux-user 2.28.2 2.fc24 x86_64
 1489171189 bind 9.10.4 3.P6.fc24 x86_64
@@ -1997,9 +1985,7 @@
 1489171214 libuuid 2.28.2 2.fc24 i686
 1489241423 pciutils 3.5.4 1.fc24 x86_64
 1489241423 pciutils-libs 3.5.4 1.fc24 x86_64
-1489525604 audit-libs 2.7.3 1.fc24 x86_64
 1489525604 perl-libs 5.22.3 370.fc24 x86_64
-1489525610 audit 2.7.3 1.fc24 x86_64
 1489525610 freetype 2.6.3 3.fc24 x86_64
 1489525610 perl-Errno 1.23 370.fc24 x86_64
 1489525610 perl-IO 1.35 370.fc24 x86_64
@@ -2012,7 +1998,6 @@
 1489525614 firewalld-filesystem 0.4.4.3 2.fc24 noarch
 1489525614 libwmf 0.2.8.4 50.fc24 x86_64
 1489525614 python3-firewall 0.4.4.3 2.fc24 noarch
-1489525643 audit-libs-python3 2.7.3 1.fc24 x86_64
 1489525643 perl-devel 5.22.3 370.fc24 x86_64
 1489525643 perl-IO-Zlib 1.10 370.fc24 noarch
 1489525643 perl-Locale-Maketext-Simple 0.21 370.fc24 noarch
@@ -2020,7 +2005,6 @@
 1489525643 perl-Net-Ping 2.43 370.fc24 noarch
 1489525643 perl-Pod-Html 1.22 370.fc24 noarch
 1489525643 perl-SelfLoader 1.22 370.fc24 noarch
-1489525652 audit-libs-python 2.7.3 1.fc24 x86_64
 1489525652 libupnp 1.6.21 1.fc24 x86_64
 1489525652 perl-open 1.10 370.fc24 noarch
 1489525652 rsyslog 8.25.0 2.fc24 x86_64
@@ -2030,7 +2014,6 @@
 1489525653 libappstream-glib 0.6.10 1.fc24 x86_64
 1489525654 cifs-utils 6.7 1.fc24 x86_64
 1489525654 dovecot 2.2.28 1.fc24 x86_64
-1489525655 audit-libs 2.7.3 1.fc24 i686
 1489525655 freetype 2.6.3 3.fc24 i686
 1489575033 perl-XML-DOM 1.45 2.fc24 noarch
 1489575033 perl-XML-RegExp 0.04 9.fc24 noarch
@@ -2107,7 +2090,6 @@
 1491662762 dnf-plugins-core 0.1.21 5.fc24 noarch
 1491662762 gnumeric 1.12.34 1.fc24 x86_64
 1491662762 hostapd-logwatch 2.5 5.fc24 x86_64
-1491728095 code 1.11.1 1491487117.el7 x86_64
 1491761353 cryptopp 5.6.3 4.fc24 x86_64
 1491761353 cryptopp-devel 5.6.3 4.fc24 x86_64
 1491761438 libjson-rpc-cpp-common 0.7.0 1.fc24 x86_64
@@ -2426,3 +2408,21 @@
 1492161185 cairo 1.15.2 24.intel20163 i686
 1492161185 libva-intel-driver 1.7.3 1.fc24 x86_64
 1492161185 xorg-x11-drv-intel 2.99.917 24.20160712.fc24 x86_64
+1492161456 audit-libs 2.7.4 1.fc24 x86_64
+1492161456 cups-libs 2.1.4 6.fc24 x86_64
+1492161456 tomcat-servlet-3.1-api 8.0.42 1.fc24 noarch
+1492161457 audit 2.7.4 1.fc24 x86_64
+1492161457 audit-libs 2.7.4 1.fc24 i686
+1492161457 cups-client 2.1.4 6.fc24 x86_64
+1492161457 cups-filesystem 2.1.4 6.fc24 noarch
+1492161457 tomcat 8.0.42 1.fc24 noarch
+1492161457 tomcat-el-3.0-api 8.0.42 1.fc24 noarch
+1492161457 tomcat-jsp-2.3-api 8.0.42 1.fc24 noarch
+1492161457 tomcat-lib 8.0.42 1.fc24 noarch
+1492161458 audit-libs-python3 2.7.4 1.fc24 x86_64
+1492161458 cups 2.1.4 6.fc24 x86_64
+1492161458 tomcat-admin-webapps 8.0.42 1.fc24 noarch
+1492161458 tomcat-webapps 8.0.42 1.fc24 noarch
+1492161462 audit-libs-python 2.7.4 1.fc24 x86_64
+1492161462 code 1.11.2 1492070635.el7 x86_64
+1492161462 cups-libs 2.1.4 6.fc24 i686

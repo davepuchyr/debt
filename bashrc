@@ -95,7 +95,7 @@ fi
 alias egrep='egrep --color'
 alias fgrep='fgrep --color'
 alias df='df -h'
-alias vi=vimx
+alias vi=vim
 alias ssh='ssh -X'
 alias rsync23='rsync -e "ssh -p 23" '
 alias ssh23='ssh -X -p 23'

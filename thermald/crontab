@@ -1,0 +1,4 @@
+@reboot ( cd /dev/shm && mkdir gwt-unitCache && chmod -R a+rwx gwt-unitCache )
+@reboot ( cd /tmp && mkdir bld && chmod -R a+rwx bld ) # for building netmorpher on vf8
+@reboot /usr/bin/dbus-send --system --dest=org.freedesktop.thermald /org/freedesktop/thermald org.freedesktop.thermald.SetUserMaxTemperature string:cpu uint32:92000
+@reboot /usr/bin/dbus-send --system --dest=org.freedesktop.thermald /org/freedesktop/thermald org.freedesktop.thermald.SetCurrentPreference string:"ENERGY_CONSERVE"

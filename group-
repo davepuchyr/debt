@@ -81,3 +81,4 @@ stapusr:x:156:
 stapsys:x:157:
 stapdev:x:158:
 mock:x:135:
+vboxusers:x:488:

@@ -2131,7 +2131,6 @@
 1492165982 cairo 1.15.2 24.intel20163 x86_64
 1492165982 cairo-devel 1.15.2 24.intel20163 x86_64
 1492165982 cairo-gobject 1.15.2 24.intel20163 x86_64
-1492166762 xorg-x11-server-Xorg 1.18.4 5.fc24 x86_64
 1492202199 gpg-pubkey 98ab5139 4bf2d0b0 (none)
 1492203065 akmods 0.5.6 1.fc24 noarch
 1492203065 akmod-VirtualBox 5.1.18 1.fc24 x86_64
@@ -2360,3 +2359,4 @@
 1493382302 mesa-libgbm-devel 13.0.4 3.fc24 x86_64
 1493382302 mesa-omx-drivers 13.0.4 3.fc24 x86_64
 1493382302 mesa-vdpau-drivers 13.0.4 3.fc24 x86_64
+1493382957 xorg-x11-server-Xorg 1.18.4 5.fc24 x86_64

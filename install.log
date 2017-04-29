@@ -2366,3 +2366,5 @@
 1493488319 dovecot 2.2.29.1 1.fc24 x86_64
 1493488327 kernel-devel 4.10.11 100.fc24 x86_64
 1493488386 kmod-VirtualBox-4.10.11-100.fc24.x86_64 5.1.18 1.fc24 x86_64
+1493488853 bumblebee-release 1.2 1 noarch
+1493488873 bumblebee-nonfree-release 1.2 1 noarch

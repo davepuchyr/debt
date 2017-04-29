@@ -1,0 +1,15 @@
+[bumblebee-nonfree-unmanaged]
+name=bumblebee nonfree unmanaged for fedora Linux $releasever - $basearch - Base
+baseurl=http://install.linux.ncsu.edu/pub/yum/itecs/public/bumblebee-nonfree-unmanaged/fedora$releasever/
+failovermethod=priority
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-bumblebee-nonfree-unmanaged-public
+
+[bumblebee-nonfree-unmanaged-source]
+name=bumblebee nonfree unmanaged for fedora Linux $releasever - $basearch - Source
+baseurl=http://install.linux.ncsu.edu/pub/yum/itecs/public/bumblebee-nonfree-unmanaged/fedora$releasever/SRPMS
+failovermethod=priority
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-bumblebee-nonfree-unmanaged-public
+gpgcheck=1

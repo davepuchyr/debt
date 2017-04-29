@@ -2338,10 +2338,10 @@
 1493488853 bumblebee-release 1.2 1 noarch
 1493489445 bbswitch-dkms 0.8.0 2.fc24 x86_64
 1493489445 dkms 2.3 4.20170313git974d838.fc24 noarch
-1493491578 bumblebee-nonfree-unmanaged-release 1.2 1 noarch
 1493492338 policycoreutils-devel 2.5 16.fc24 x86_64
 1493492338 selinux-policy-devel 3.13.1 191.24.fc24 noarch
 1493492346 bumblebee 3.2.1 13.fc24 x86_64
 1493492347 bumblebee-nvidia 3.0 3.fc24 noarch
 1493492347 pangox-compat 0.0.2 7.fc24 x86_64
 1493492353 primus 1.1.03282015 4.fc24 x86_64
+1493497165 bumblebee-nonfree-release 1.2 1 noarch

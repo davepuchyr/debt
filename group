@@ -53,7 +53,7 @@ slocate:x:21:
 tcpdump:x:72:
 dave:x:500:
 cgred:x:499:
-bumblebee:x:1000:dave
+bumblebee:x:1000:dave,uupfa
 wireshark:x:498:dave
 usbmon:x:497:
 setroubleshoot:x:496:

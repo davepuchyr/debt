@@ -2087,11 +2087,7 @@
 1492165982 cairo-gobject 1.15.2 24.intel20163 x86_64
 1492202199 gpg-pubkey 98ab5139 4bf2d0b0 (none)
 1492203065 akmods 0.5.6 1.fc24 noarch
-1492203065 akmod-VirtualBox 5.1.18 1.fc24 x86_64
 1492203065 kmodtool 1 23.fc24 noarch
-1492203065 VirtualBox-kmodsrc 5.1.18 1.fc24 x86_64
-1492203067 VirtualBox-server 5.1.18 1.fc24 x86_64
-1492203068 VirtualBox 5.1.18 1.fc24 x86_64
 1492284069 cvs 1.11.23 40.fc24 x86_64
 1492412647 glib 1.2.10 47.fc24 x86_64
 1492412647 glib-devel 1.2.10 47.fc24 x86_64
@@ -2245,11 +2241,6 @@
 1493278993 js-jquery 2.2.4 3.fc24 noarch
 1493278993 pyOpenSSL 16.2.0 1.fc24 noarch
 1493278994 distribution-gpg-keys 1.11 1.fc24 noarch
-1493281793 kernel-core 4.10.8 100.fc24 x86_64
-1493281795 kernel-modules 4.10.8 100.fc24 x86_64
-1493281797 kernel 4.10.8 100.fc24 x86_64
-1493281798 kernel-modules-extra 4.10.8 100.fc24 x86_64
-1493281806 kernel-devel 4.10.8 100.fc24 x86_64
 1493283980 vulkan-filesystem 1.0.42.2 1.fc24 noarch
 1493288224 sg3_utils-libs 1.41 3.fc24 x86_64
 1493288225 sg3_utils 1.41 3.fc24 x86_64
@@ -2333,5 +2324,9 @@
 1493488315 tomcat-webapps 8.0.43 1.fc24 noarch
 1493488318 audit-libs-python 2.7.5 1.fc24 x86_64
 1493488319 dovecot 2.2.29.1 1.fc24 x86_64
-1493488386 kmod-VirtualBox-4.10.11-100.fc24.x86_64 5.1.18 1.fc24 x86_64
 1493497389 kernel-devel 4.10.11 100.fc24 x86_64
+1493572783 akmod-VirtualBox 5.1.20 1.fc24 x86_64
+1493572783 VirtualBox-kmodsrc 5.1.20 2.fc24 x86_64
+1493572784 VirtualBox-server 5.1.20 2.fc24 x86_64
+1493572785 VirtualBox 5.1.20 2.fc24 x86_64
+1493572805 kmod-VirtualBox-4.10.11-100.fc24.x86_64 5.1.20 1.fc24 x86_64

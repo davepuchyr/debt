@@ -2334,14 +2334,4 @@
 1493488318 audit-libs-python 2.7.5 1.fc24 x86_64
 1493488319 dovecot 2.2.29.1 1.fc24 x86_64
 1493488386 kmod-VirtualBox-4.10.11-100.fc24.x86_64 5.1.18 1.fc24 x86_64
-1493488853 bumblebee-release 1.2 1 noarch
-1493489445 dkms 2.3 4.20170313git974d838.fc24 noarch
-1493492338 policycoreutils-devel 2.5 16.fc24 x86_64
-1493492338 selinux-policy-devel 3.13.1 191.24.fc24 noarch
-1493492346 bumblebee 3.2.1 13.fc24 x86_64
-1493492347 pangox-compat 0.0.2 7.fc24 x86_64
-1493497165 bumblebee-nonfree-release 1.2 1 noarch
 1493497389 kernel-devel 4.10.11 100.fc24 x86_64
-1493497412 bumblebee-nvidia 375.39 3.fc24 x86_64
-1493497417 bbswitch-dkms 0.8.0 2.fc24 x86_64
-1493497417 primus 1.1.03282015 4.fc24 x86_64

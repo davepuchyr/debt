@@ -1,0 +1,4 @@
+[s3-us-west-2.amazonaws.com_brave-rpm-release_x86_64_]
+name=created by dnf config-manager from https://s3-us-west-2.amazonaws.com/brave-rpm-release/x86_64/
+baseurl=https://s3-us-west-2.amazonaws.com/brave-rpm-release/x86_64/
+enabled=1

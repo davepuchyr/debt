@@ -2372,3 +2372,5 @@
 1494266926 libjson-rpc-cpp-devel 0.7.0 1.fc25 x86_64
 1494266926 libjson-rpc-cpp-tools 0.7.0 1.fc25 x86_64
 1494266926 libmicrohttpd-devel 0.9.53 1.fc25 x86_64
+1494273142 gpg-pubkey 448eee6c 5891f237 (none)
+1494273168 brave 0.15.2 1 x86_64

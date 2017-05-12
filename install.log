@@ -1253,7 +1253,6 @@
 1493585017 python2-pysocks 1.5.6 5.fc25 noarch
 1493585017 python2-requests 2.10.0 4.fc25 noarch
 1493585017 python2-urllib3 1.15.1 3.fc25 noarch
-1493585017 python-fedora 0.8.0 2.fc25 noarch
 1493585018 python2-gitdb 2.0.0 1.fc25 noarch
 1493585018 python2-requests-kerberos 0.10.0 2.fc25 noarch
 1493585018 python2-smmap 2.0.1 1.fc25 noarch
@@ -1267,7 +1266,6 @@
 1493585019 nss-pem 1.0.3 3.fc25 x86_64
 1493585019 pyxattr 0.5.3 8.fc25 x86_64
 1493585020 libldb 1.1.27 1.fc25 x86_64
-1493585020 NetworkManager-libnm 1.4.4 4.fc25 x86_64
 1493585020 openldap 2.4.44 10.fc25 x86_64
 1493585021 gnupg2 2.1.13 2.fc25 x86_64
 1493585021 gpgme 1.8.0 10.fc25 x86_64
@@ -1429,7 +1427,6 @@
 1493585068 device-mapper-event-libs 1.02.136 3.fc25 x86_64
 1493585068 geoclue2 2.4.5 1.fc25 x86_64
 1493585068 libdrm-devel 2.4.79 1.fc25 x86_64
-1493585068 NetworkManager-glib 1.4.4 4.fc25 x86_64
 1493585069 initscripts 9.69 1.fc25 x86_64
 1493585069 iputils 20161105 1.fc25 x86_64
 1493585069 openssh 7.4p1 4.fc25 x86_64
@@ -1617,9 +1614,6 @@
 1493585129 dhcp-relay 4.3.5 1.fc25 x86_64
 1493585129 dracut-network 044 78.fc25 x86_64
 1493585129 kexec-tools 2.0.13 7.fc25.3 x86_64
-1493585129 NetworkManager 1.4.4 4.fc25 x86_64
-1493585129 NetworkManager-team 1.4.4 4.fc25 x86_64
-1493585129 NetworkManager-wifi 1.4.4 4.fc25 x86_64
 1493585130 adwaita-cursor-theme 3.22.0 1.fc25 noarch
 1493585130 dhcp-server 4.3.5 1.fc25 x86_64
 1493585133 abattis-cantarell-fonts 0.0.25 1.fc25 noarch
@@ -1959,7 +1953,6 @@
 1493585261 initial-setup-gui 0.3.43 1.fc25 x86_64
 1493585262 abrt-cli 2.9.0 1.fc25 x86_64
 1493585262 kde-platform-plugin 4.11.22 16.fc25 x86_64
-1493585262 kde-style-breeze 5.9.4 1.fc25 x86_64
 1493585262 phpMyAdmin 4.6.6 1.fc25 noarch
 1493585262 systemtap 3.1 2.fc25 x86_64
 1493585263 libkonq 16.08.3 1.fc25 x86_64
@@ -2049,8 +2042,6 @@
 1493585327 qbittorrent 3.3.11 2.fc25 x86_64
 1493585327 qv4l2 1.10.0 2.fc25 x86_64
 1493585328 dhcp-compat 4.3.5 1.fc25 x86_64
-1493585328 NetworkManager-adsl 1.4.4 4.fc25 x86_64
-1493585328 NetworkManager-wwan 1.4.4 4.fc25 x86_64
 1493585328 python-systemd-doc 232 1.fc25 x86_64
 1493585328 tigervnc-server 1.7.1 4.fc25 x86_64
 1493585328 xterm 327 2.fc25 x86_64
@@ -2229,7 +2220,6 @@
 1493585375 libsss_sudo 1.15.2 2.fc25 x86_64
 1493585375 microcode_ctl 2.1 13.1.fc25 x86_64
 1493585376 netpbm 10.77.00 3.fc25 x86_64
-1493585376 nvidia-modprobe 378.13 1.fc25 x86_64
 1493585376 pcsc-lite-libs 1.8.20 1.fc25 x86_64
 1493585376 rpmfusion-free-release 25 2 noarch
 1493585376 rpmfusion-nonfree-release 25 2 noarch
@@ -2269,10 +2259,6 @@
 1493747589 vulkan-filesystem 1.0.46.0 2.fc25 noarch
 1493747590 coreutils 8.25 17.fc25 x86_64
 1493747590 coreutils-common 8.25 17.fc25 x86_64
-1493747592 kernel-core 4.10.13 200.fc25 x86_64
-1493747593 kernel-modules 4.10.13 200.fc25 x86_64
-1493747596 kernel 4.10.13 200.fc25 x86_64
-1493747596 kernel-modules-extra 4.10.13 200.fc25 x86_64
 1493747599 cryptsetup 1.7.5 1.fc25 x86_64
 1493747599 nfs-utils 2.1.1 5.rc2.fc25 x86_64
 1493747599 vulkan-devel 1.0.46.0 2.fc25 x86_64
@@ -2282,10 +2268,7 @@
 1493747600 perl-threads-shared 1.55 2.fc25 x86_64
 1493747600 telnet 0.17 68.fc25 x86_64
 1493747601 json-c 0.12.1 1.fc25 x86_64
-1493747601 kernel-headers 4.10.13 200.fc25 x86_64
 1493747601 libidn2 2.0.2 1.fc25 x86_64
-1493747608 kernel-devel 4.10.13 200.fc25 x86_64
-1493747665 kmod-VirtualBox-4.10.13-200.fc25.x86_64 5.1.20 1.fc25 x86_64
 1494262165 mesa-libglapi 17.0.5 2.fc25 x86_64
 1494262165 nspr 4.14.0 2.fc25 x86_64
 1494262165 nss-util 3.30.2 1.0.fc25 x86_64
@@ -2325,7 +2308,6 @@
 1494262183 qt5-qtwebengine-devel 5.8.0 11.fc25 x86_64
 1494262184 freerdp 2.0.0 26.20170419gitbfcf8e7.fc25 x86_64
 1494262188 code 1.12.1 1493934217.el7 x86_64
-1494262195 google-chrome-stable 58.0.3029.96 1 x86_64
 1494262197 mesa-dri-drivers 17.0.5 2.fc25 x86_64
 1494262197 mesa-vdpau-drivers 17.0.5 2.fc25 x86_64
 1494262198 libXdmcp-devel 1.1.2 6.fc25 x86_64
@@ -2374,3 +2356,22 @@
 1494266926 libmicrohttpd-devel 0.9.53 1.fc25 x86_64
 1494273142 gpg-pubkey 448eee6c 5891f237 (none)
 1494273168 brave 0.15.2 1 x86_64
+1494577839 kernel-core 4.10.14 200.fc25 x86_64
+1494577840 kernel-modules 4.10.14 200.fc25 x86_64
+1494577844 NetworkManager 1.4.4 5.fc25 x86_64
+1494577844 NetworkManager-libnm 1.4.4 5.fc25 x86_64
+1494577844 python2-openidc-client 0 3.20170327git5456800.fc25 noarch
+1494577845 kernel 4.10.14 200.fc25 x86_64
+1494577845 kernel-modules-extra 4.10.14 200.fc25 x86_64
+1494577845 NetworkManager-adsl 1.4.4 5.fc25 x86_64
+1494577845 NetworkManager-team 1.4.4 5.fc25 x86_64
+1494577845 NetworkManager-wifi 1.4.4 5.fc25 x86_64
+1494577845 NetworkManager-wwan 1.4.4 5.fc25 x86_64
+1494577845 python-fedora 0.9.0 3.fc25 noarch
+1494577849 kde-style-breeze 5.9.5 1.fc25 x86_64
+1494577849 kernel-headers 4.10.14 200.fc25 x86_64
+1494577849 nvidia-modprobe 381.22 1.fc25 x86_64
+1494577856 google-chrome-stable 58.0.3029.110 1 x86_64
+1494577857 NetworkManager-glib 1.4.4 5.fc25 x86_64
+1494577866 kernel-devel 4.10.14 200.fc25 x86_64
+1494577908 kmod-VirtualBox-4.10.14-200.fc25.x86_64 5.1.20 1.fc25 x86_64

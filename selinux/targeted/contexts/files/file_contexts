@@ -1626,6 +1626,7 @@
 /var/log/lightdm(/.*)?	system_u:object_r:xserver_log_t:s0
 /var/run/lightdm(/.*)?	system_u:object_r:xdm_var_run_t:s0
 /etc/sysctl\.conf(\.old)?	--	system_u:object_r:system_conf_t:s0
+/var/run/secrets.socket	system_u:object_r:sssd_var_run_t:s0
 /var/lib/tomcat6?(/.*)?	system_u:object_r:tomcat_var_lib_t:s0
 /var/log/tomcat6?(/.*)?	system_u:object_r:tomcat_log_t:s0
 /usr/lib/libmyth[^/]+\.so.*	--	system_u:object_r:textrel_shlib_t:s0
@@ -2705,6 +2706,7 @@
 /etc/qemu-ga/fsfreeze-hook.d(/.*)?	system_u:object_r:virt_qemu_ga_unconfined_exec_t:s0
 /usr/lib/catalyst/libGL\.so(\.[^/]*)*	--	system_u:object_r:textrel_shlib_t:s0
 /etc/opt/brother/Printers/(.*/)?inf(/.*)?	system_u:object_r:cupsd_rw_etc_t:s0
+/etc/systemd/system/dirsrv.target.wants(/.*)?	system_u:object_r:certmonger_unit_file_t:s0
 /usr/lib/NetworkManager/nm\-.*	--	system_u:object_r:bin_t:s0
 /etc/systemd/system/cockpit.*	--	system_u:object_r:cockpit_unit_file_t:s0
 /usr/lib/systemd/system/atd.*	--	system_u:object_r:crond_unit_file_t:s0
@@ -2786,6 +2788,7 @@
 /var/lib/amanda/gnutar-lists(/.*)?	system_u:object_r:amanda_gnutarlists_t:s0
 /etc/opt/rh/rh-nginx18/nginx(/.*)?	system_u:object_r:httpd_config_t:s0
 /var/lib/stickshift/\.httpd\.d(/.*)?	system_u:object_r:httpd_config_t:s0
+/var/www/html/nextcloud/data(/.*)?	system_u:object_r:httpd_sys_rw_content_t:s0
 /usr/share/denyhosts/plugins(/.*)?	system_u:object_r:bin_t:s0
 /usr/share/denyhosts/scripts(/.*)?	system_u:object_r:bin_t:s0
 /emul/ia32-linux/usr/libexec(/.*)?	system_u:object_r:bin_t:s0
@@ -3014,6 +3017,7 @@
 /var/lib/nxserver/home/\.Xauthority.*	--	system_u:object_r:xauth_home_t:s0
 /usr/lib/systemd/system/zoneminder.*	--	system_u:object_r:zoneminder_unit_file_t:s0
 /etc/sysconfig/network-scripts/net.*	system_u:object_r:bin_t:s0
+/usr/lib/systemd/system/certmonger.*	system_u:object_r:certmonger_unit_file_t:s0
 /usr/lib/systemd/system/pki-tomcat.*	system_u:object_r:pki_tomcat_unit_file_t:s0
 /usr/share/wordpress-mu/wp-content(/.*)?	system_u:object_r:httpd_sys_rw_content_t:s0
 /usr/share/awstats/wwwroot/cgi-bin(/.*)?	system_u:object_r:awstats_script_exec_t:s0
@@ -5247,6 +5251,7 @@
 /usr/libexec/news/innxmit	--	system_u:object_r:innd_exec_t:s0
 /usr/libexec/news/makedbz	--	system_u:object_r:innd_exec_t:s0
 /usr/libexec/news/nntpget	--	system_u:object_r:innd_exec_t:s0
+/usr/libexec/ipa/ipa-otpd	--	system_u:object_r:ipa_otpd_exec_t:s0
 /usr/lib/ipsec/_plutoload	--	system_u:object_r:ipsec_mgmt_exec_t:s0
 /usr/lib/ipsec/klipsdebug	--	system_u:object_r:ipsec_exec_t:s0
 /usr/libexec/ipsec/eroute	--	system_u:object_r:ipsec_exec_t:s0
@@ -5701,6 +5706,7 @@
 /var/run/cluster/mpath\.devices	--	system_u:object_r:fenced_var_run_t:s0
 /var/run/ovirt-guest-agent\.pid	--	system_u:object_r:rhev_agentd_var_run_t:s0
 /var/run/samba/connections\.tdb	--	system_u:object_r:smbd_var_run_t:s0
+/usr/libexec/sssd/sssd_secrets	--	system_u:object_r:sssd_exec_t:s0
 /usr/bin/swift-account-auditor	--	system_u:object_r:swift_exec_t:s0
 /usr/libexec/mission-control-5	--	system_u:object_r:telepathy_mission_control_exec_t:s0
 /usr/lib/systemd/systemd-udevd	--	system_u:object_r:udev_exec_t:s0

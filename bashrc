@@ -109,6 +109,7 @@ alias mpg123='mpg123 --verbose --control --title --long-tag'
 alias dracut='dracut -v --add resume --omit-drivers nouveau'
 alias synergyc='synergyc -d ERROR'
 alias synergys='synergys -d ERROR'
+alias google-chrome='google-chrome --remote-debugging-port=9222'
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f /opt/google-cloud-sdk/path.bash.inc ]; then

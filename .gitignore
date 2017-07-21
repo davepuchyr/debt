@@ -16,4 +16,5 @@ ntp.conf
 **/tmp
 **/*.bak
 tomcat/tomcat-users.xml
+cups/printers.conf*
 

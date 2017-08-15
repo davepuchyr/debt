@@ -2412,3 +2412,11 @@
 1502470941 hwdata 0.303 1.fc25 noarch
 1502470941 libidn2 2.0.3 1.fc25 x86_64
 1502470941 libsolv 0.6.28 5.fc25 x86_64
+1502485654 bluez 5.44 1.fc25 x86_64
+1502485654 libical 2.0.0 8.fc25 x86_64
+1502485655 blueman 2.0.4 4.fc25 x86_64
+1502485655 bluez-obexd 5.44 1.fc25 x86_64
+1502485655 pulseaudio-module-bluetooth 10.0 2.fc25 x86_64
+1502485655 sbc 1.3 4.fc24 x86_64
+1502836197 google-roboto-fonts 2.136 1.fc25 noarch
+1502836197 google-roboto-mono-fonts 2.000986 0.2.20150923git.fc24 noarch

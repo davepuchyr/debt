@@ -2440,13 +2440,11 @@
 1506636872 mozjs38 38.8.0 4.fc25 x86_64
 1506636872 PackageKit-glib 1.1.5 1.fc25 x86_64
 1506636873 comps-extras 23 4.fc24 noarch
-1506636873 intel-graphics-update-tool 2.0.3 24.intel20163 x86_64
 1506636873 libappstream-glib 0.6.13 1.fc25 x86_64
 1506636873 libgcab1 0.7 1.fc25 x86_64
 1506636873 libproxy-mozjs 0.4.15 2.fc25 x86_64
 1506636873 libstemmer 0 4.585svn.fc24 x86_64
 1506636873 PackageKit 1.1.5 1.fc25 x86_64
-1506636900 intellinuxgraphics-repo 2.0.5 25.intel20171 noarch
 1506636931 cairo 1.15.4 25.intel20171 x86_64
 1506636931 cairo-devel 1.15.4 25.intel20171 x86_64
 1506636931 cairo-gobject 1.15.4 25.intel20171 x86_64
@@ -2455,3 +2453,5 @@
 1506637091 libva-utils 1.8.0 25.intel20171 x86_64
 1506637108 libva-intel-driver 1.8.0 25.intel20171 x86_64
 1506637139 intel-gpu-tools 1.18 25.intel20171 x86_64
+1506637508 intel-graphics-update-tool 2.0.5 25.intel20171 x86_64
+1506637592 intellinuxgraphics-repo 2.0.5 25.intel20171 noarch

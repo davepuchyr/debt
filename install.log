@@ -2428,3 +2428,8 @@
 1506637139 intel-gpu-tools 1.18 25.intel20171 x86_64
 1506637508 intel-graphics-update-tool 2.0.5 25.intel20171 x86_64
 1506637592 intellinuxgraphics-repo 2.0.5 25.intel20171 noarch
+1506659383 nvidia-libXNVCtrl 384.90 1.fc25 x86_64
+1506659384 nvidia-settings 384.90 1.fc25 x86_64
+1506659384 nvidia-xconfig 384.90 1.fc25 x86_64
+1506660138 dkms 2.3 5.20170523git8c3065c.fc25 noarch
+1506660139 dkms-nvidia 384.90 1.fc25 x86_64

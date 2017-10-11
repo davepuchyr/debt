@@ -2458,3 +2458,6 @@
 1507712295 pyOpenSSL 16.2.0 2.fc25 noarch
 1507712295 python3-pyOpenSSL 16.2.0 2.fc25 noarch
 1507712296 cfitsio 3.370 10.fc25 x86_64
+1507712452 hwloc-devel 1.11.0 6.fc24 x86_64
+1507712452 libibverbs 1.2.1 1.fc25 x86_64
+1507712452 libibverbs-devel 1.2.1 1.fc25 x86_64

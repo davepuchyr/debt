@@ -99,3 +99,5 @@ export TEST_DB_PANDA_HOST=localhost
 export TEST_IB_HOST=vyoga
 export TEST_IB_PORT=7496
 
+export IPFS_PATH=/home/ipfs/.ipfs
+

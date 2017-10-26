@@ -51,3 +51,5 @@ usbmuxd:x:113:113:usbmuxd user:/:/sbin/nologin
 tomcat:x:91:91:Apache Tomcat:/usr/share/tomcat:/sbin/nologin
 unbound:x:492:491:Unbound DNS resolver:/etc/unbound:/sbin/nologin
 akmods:x:491:490:User is used by akmods to build akmod packages:/var/cache/akmods/:/sbin/nologin
+nvidia-persistenced:x:490:489:NVIDIA persistent software state:/var/run/nvidia-persistenced:/sbin/nologin
+ipfs:x:1004:1004:ipfs:/home/ipfs:/bin/bash

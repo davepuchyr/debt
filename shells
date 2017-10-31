@@ -5,3 +5,5 @@
 /usr/bin/bash
 /usr/sbin/nologin
 /bin/ksh
+/usr/bin/tmux
+/bin/tmux

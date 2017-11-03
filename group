@@ -8,7 +8,7 @@ disk:x:6:
 lp:x:7:
 mem:x:8:
 kmem:x:9:
-wheel:x:10:dave
+wheel:x:10:dave,monero
 cdrom:x:11:
 mail:x:12:
 man:x:15:
@@ -85,3 +85,4 @@ vboxusers:x:488:
 power:x:487:
 ipfs:x:1004:dave
 redis:x:486:
+monero:x:1005:dave

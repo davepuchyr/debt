@@ -1,0 +1,7 @@
+/var/log/atop/atop.log {
+    missingok
+    weekly
+    rotate 4 
+    notifempty
+    create 0600 root root
+}

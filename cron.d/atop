@@ -1,0 +1,2 @@
+# start atop daily at midnight
+0 0 * * * root /bin/systemctl try-restart atop.service > /dev/null 2>&1 || :

@@ -2501,3 +2501,5 @@
 1509727803 iwl1000-firmware 39.31.5.1 77.fc25 noarch
 1509727803 iwl100-firmware 39.31.5.1 77.fc25 noarch
 1509727807 breeze-icon-theme 5.38.0 2.fc25 noarch
+1509741148 gpg-pubkey ed6b879f 58b84cab (none)
+1509970365 atop 2.1 3.fc24 x86_64

@@ -1,0 +1,27 @@
+
+module my-node 1.0;
+
+require {
+	type init_t;
+	type user_home_t;
+	type unconfined_t;
+	class unix_stream_socket connectto;
+	class file ioctl;
+	class process execmem;
+	class sock_file { getattr write };
+}
+
+#============= init_t ==============
+
+#!!!! This avc is allowed in the current policy
+allow init_t self:process execmem;
+
+#!!!! The file '/home/monero/.pm2/rpc.sock' is mislabeled on your system.  
+#!!!! Fix with $ restorecon -R -v /home/monero/.pm2/rpc.sock
+allow init_t unconfined_t:unix_stream_socket connectto;
+
+#!!!! This avc is allowed in the current policy
+allow init_t user_home_t:file ioctl;
+
+#!!!! This avc is allowed in the current policy
+allow init_t user_home_t:sock_file { getattr write };

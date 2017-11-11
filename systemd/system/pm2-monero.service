@@ -1,0 +1,21 @@
+[Unit]
+Description=PM2 process manager
+Documentation=https://pm2.keymetrics.io/
+After=network.target
+
+[Service]
+Type=forking
+User=monero
+LimitNOFILE=infinity
+LimitNPROC=infinity
+LimitCORE=infinity
+Environment=PATH=/home/monero/.nvm/versions/node/v6.9.2/bin:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
+Environment=PM2_HOME=/home/monero/.pm2
+PIDFile=/home/monero/.pm2/pm2.pid
+
+ExecStart=/home/monero/.nvm/versions/node/v6.9.2/lib/node_modules/pm2/bin/pm2 resurrect
+ExecReload=/home/monero/.nvm/versions/node/v6.9.2/lib/node_modules/pm2/bin/pm2 reload all
+ExecStop=/home/monero/.nvm/versions/node/v6.9.2/lib/node_modules/pm2/bin/pm2 kill
+
+[Install]
+WantedBy=multi-user.target

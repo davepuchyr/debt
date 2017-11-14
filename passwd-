@@ -55,3 +55,4 @@ nvidia-persistenced:x:490:489:NVIDIA persistent software state:/var/run/nvidia-p
 ipfs:x:1004:1004:ipfs:/home/ipfs:/usr/sbin/nologin
 redis:x:489:486:Redis Database Server:/var/lib/redis:/sbin/nologin
 monero:x:1005:1005:monero:/home/monero:/bin/bash
+caddy:x:483:483:Caddy web server:/var/lib/caddy:/sbin/nologin

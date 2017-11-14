@@ -9,13 +9,13 @@ User=monero
 LimitNOFILE=infinity
 LimitNPROC=infinity
 LimitCORE=infinity
-Environment=PATH=/home/monero/.nvm/versions/node/v6.9.2/bin:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
-Environment=PM2_HOME=/home/monero/.pm2
-PIDFile=/home/monero/.pm2/pm2.pid
+Environment=PATH=/opt/node-v8.8.1-linux-x64/bin:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin
+Environment=PM2_HOME=/opt/.pm2
+PIDFile=/opt/.pm2/pm2.pid
 
-ExecStart=/home/monero/.nvm/versions/node/v6.9.2/lib/node_modules/pm2/bin/pm2 resurrect
-ExecReload=/home/monero/.nvm/versions/node/v6.9.2/lib/node_modules/pm2/bin/pm2 reload all
-ExecStop=/home/monero/.nvm/versions/node/v6.9.2/lib/node_modules/pm2/bin/pm2 kill
+ExecStart=/opt/node-v8.8.1-linux-x64/lib/node_modules/pm2/bin/pm2 resurrect
+ExecReload=/opt/node-v8.8.1-linux-x64/lib/node_modules/pm2/bin/pm2 reload all
+ExecStop=/opt/node-v8.8.1-linux-x64/lib/node_modules/pm2/bin/pm2 kill
 
 [Install]
 WantedBy=multi-user.target

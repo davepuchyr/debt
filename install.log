@@ -2503,3 +2503,11 @@
 1509727807 breeze-icon-theme 5.38.0 2.fc25 noarch
 1509741148 gpg-pubkey ed6b879f 58b84cab (none)
 1509970365 atop 2.1 3.fc24 x86_64
+1510066295 libuv-devel 1.10.2 1.fc25 x86_64
+1510066295 libuv-static 1.10.2 1.fc25 x86_64
+1510224439 ImageMagick-perl 6.9.9.19 1.fc25 x86_64
+1510224439 shutter 0.93.1 8.fc25 noarch
+1510507468 glibc-static 2.24 10.fc25 x86_64
+1510586654 golang-src 1.8.4 1.fc25 noarch
+1510586663 golang-bin 1.8.4 1.fc25 x86_64
+1510586664 golang 1.8.4 1.fc25 x86_64

@@ -53,12 +53,12 @@ slocate:x:21:
 tcpdump:x:72:
 dave:x:500:
 cgred:x:499:
-bumblebee:x:1000:dave,uupfa
+bumblebee:x:1000:dave,uupfa,ipfs
 wireshark:x:498:dave
 usbmon:x:497:
 setroubleshoot:x:496:
 named:x:25:
-apache:x:48:
+apache:x:48:caddy
 memcached:x:495:
 mysql:x:27:
 uupfa:x:1001:

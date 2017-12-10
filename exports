@@ -1,5 +1,6 @@
 /home/archive                  192.168.1.0/24(rw,sync,no_root_squash)
-/home/dave                     192.168.1.0/24(rw,sync,no_root_squash)
+/home/dave                     192.168.1.0/24(rw,sync,no_root_squash,insecure,no_wdelay,nohide)
+
 #/tmp/bld                       192.168.1.0/24(rw,sync,no_root_squash,fsid=1)
 /home/archive                  10.12.12.0/24(rw,sync,no_root_squash)
 /home/dave                     10.12.12.0/24(rw,sync,no_root_squash)

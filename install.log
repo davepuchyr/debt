@@ -675,7 +675,6 @@
 1493584919 iso-codes 3.70 1.fc25 noarch
 1493584920 libspatialite 4.3.0a 2.fc24 x86_64
 1493584920 perl-Term-Cap 1.17 365.fc25 noarch
-1493584921 mkvtoolnix 10.0.0 1.fc25 x86_64
 1493584921 perl-Email-Simple 2.210 2.fc25 noarch
 1493584921 perl-File-HomeDir 1.00 12.fc25 noarch
 1493584921 perl-Role-Tiny 2.000003 3.fc25 noarch
@@ -1520,7 +1519,6 @@
 1493585326 lxsession-edit 0.5.3 2.fc25 x86_64
 1493585326 lxtask 0.1.8 1.fc25 x86_64
 1493585326 openssh-askpass 7.4p1 4.fc25 x86_64
-1493585327 mkvtoolnix-gui 10.0.0 1.fc25 x86_64
 1493585327 qbittorrent 3.3.11 2.fc25 x86_64
 1493585327 qv4l2 1.10.0 2.fc25 x86_64
 1493585328 python-systemd-doc 232 1.fc25 x86_64
@@ -2524,3 +2522,6 @@
 1512300840 xorg-x11-drv-nvidia-cuda 384.98 1.fc25 x86_64
 1512300840 xorg-x11-drv-nvidia-cuda-libs 384.98 1.fc25 x86_64
 1512300862 kmod-nvidia-4.13.16-100.fc25.x86_64 384.98 1.fc25 x86_64
+1512944151 bunkus-org-repo 2 3 noarch
+1512944337 gpg-pubkey 10c052a6 54db83ed (none)
+1512944373 mkvtoolnix 18.0.0 1 x86_64

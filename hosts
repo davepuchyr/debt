@@ -1,22 +1,16 @@
 127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4 debt debt.avaritia.com
 ::1         localhost localhost.localdomain localhost6 localhost6.localdomain6 debt debt.avaritia.com
 
-192.168.1.43 debt debt.avaritia.com u u.avaritia.com trader trader.avaritia.com drumpfyou drumpfyou.avaritia.com monero monero.avaritia.com
-192.168.1.15 yoga yoga.avaritia.com yoga.an0xymous.com
-192.168.1.16 vyoga vyoga.avaritia.com vyoga.an0xymous.com u u.avaritia.com u.an0xymous.com
-192.168.1.30  macbook macbook.avaritia.com macbook.an0xymous.com
-192.168.1.44  vf8 vf8.avaritia.com vf8.an0xymous.com
+10.12.12.43 debt debt.avaritia.com u u.avaritia.com trader trader.avaritia.com drumpfyou drumpfyou.avaritia.com monero monero.avaritia.com
+10.12.12.15 yoga yoga.avaritia.com yoga.an0xymous.com
+10.12.12.16 vyoga vyoga.avaritia.com vyoga.an0xymous.com u u.avaritia.com u.an0xymous.com
+10.12.12.30  macbook macbook.avaritia.com macbook.an0xymous.com
+10.12.12.44  vf8 vf8.avaritia.com vf8.an0xymous.com
 
-192.168.1.8   ocho ocho.avaritia.com api
-192.168.1.11  duo duo.avaritia.com duo.an0xymous.com
-192.168.1.24  iphone iphone.avaritia.com
-192.168.1.20  buddha4 buddha4.avaritia.com
-192.168.1.25  pi pi.avaritia.com
-192.168.1.26  fipi fipi.avaritia.com
-192.168.1.29  xp310 xp310.avaritia.com
-192.168.1.32  ipadsu ipadsu.avaritia.com
+10.13.13.24  iphone iphone.avaritia.com
+10.13.13.32  ipadsu ipadsu.avaritia.com
 
 52.57.142.58 ec2
 
-192.168.1.253 buffalo
+10.13.13.253 buffalo
 

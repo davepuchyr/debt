@@ -2336,9 +2336,6 @@
 1510224439 ImageMagick-perl 6.9.9.19 1.fc25 x86_64
 1510224439 shutter 0.93.1 8.fc25 noarch
 1510507468 glibc-static 2.24 10.fc25 x86_64
-1510586654 golang-src 1.8.4 1.fc25 noarch
-1510586663 golang-bin 1.8.4 1.fc25 x86_64
-1510586664 golang 1.8.4 1.fc25 x86_64
 1510677795 bitstream-vera-fonts-common 1.10 28.fc24 noarch
 1510677795 bitstream-vera-sans-fonts 1.10 28.fc24 noarch
 1510677795 openshot 2.4.0 3.fc25 noarch
@@ -2529,3 +2526,6 @@
 1517144976 cuda-cublas-dev-9-0 9.0.176.1 1 x86_64
 1517144982 google-chrome-stable 64.0.3282.119 1 x86_64
 1517144992 brave 0.19.147 1 x86_64
+1517653855 golang-src 1.9.2 1.fc25 noarch
+1517653861 golang 1.9.2 1.fc25 x86_64
+1517653861 golang-bin 1.9.2 1.fc25 x86_64

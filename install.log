@@ -2389,13 +2389,6 @@
 1511197141 kf5-ktexteditor 5.38.0 3.fc25 x86_64
 1511197152 ethtool 4.13 1.fc25 x86_64
 1511248255 lshw B.02.18 11.fc25 x86_64
-1511352919 container-selinux 2.24 1.fc25 noarch
-1511352919 docker-common 1.12.6 7.gitae7d637.fc25 x86_64
-1511352919 skopeo-containers 0.1.23 6.git1bbd87f.fc25 x86_64
-1511352919 yajl 2.1.0 5.fc24 x86_64
-1511352936 docker 1.12.6 7.gitae7d637.fc25 x86_64
-1511352936 oci-register-machine 0 3.10.gitcbf1b8f.fc25 x86_64
-1511352936 oci-systemd-hook 0.1.13 1.gitafe4b4a.fc25 x86_64
 1511507746 hwloc 1.11.0 6.fc24 x86_64
 1511771322 pcre 8.41 3.fc25 x86_64
 1511771327 libtalloc 2.1.10 2.fc25 x86_64

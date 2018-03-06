@@ -87,3 +87,4 @@ ipfs:x:1004:dave
 redis:x:486:
 monero:x:1005:dave
 caddy:x:483:
+docker:x:485:dave

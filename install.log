@@ -2557,3 +2557,4 @@
 1520311092 gpg-pubkey 621e9f35 58adea78 (none)
 1520397995 container-selinux 2.24 1.fc25 noarch
 1520398008 docker-ce 17.09.1.ce 1.fc25 x86_64
+1520689571 google-cloud-sdk 192.0.0 1.el7 noarch

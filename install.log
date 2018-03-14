@@ -2558,3 +2558,6 @@
 1520397995 container-selinux 2.24 1.fc25 noarch
 1520398008 docker-ce 17.09.1.ce 1.fc25 x86_64
 1520689571 google-cloud-sdk 192.0.0 1.el7 noarch
+1520999981 gperftools-libs 2.5 2.fc25 x86_64
+1520999981 yaml-cpp 0.5.1 13.fc24 x86_64
+1520999983 mongodb 3.2.12 1.fc25 x86_64

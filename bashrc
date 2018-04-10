@@ -102,7 +102,7 @@ alias ssh23='ssh -X -p 23'
 #alias vmware=vmwarearts
 #alias unison='unison -rsync -maxthreads 5'
 alias unison='unison -rsync'
-alias tidy='tidy -utf8 --indent-spaces 3 --merge-divs 0 --merge-spans 0 -w 256 -ibcum --drop-proprietary-attributes 1 --fix-uri 1 --word-2000 1 --tidy-mark 0 --vertical-space 1 --clean 0'
+alias tidy='tidy -w 132 -utf8 --indent-spaces 3 --merge-divs 0 --merge-spans 0 -ibcum --drop-proprietary-attributes 1 --fix-uri 1 --word-2000 1 --tidy-mark 0 --vertical-space 1 --clean 0 --uppercase-tags 0'
 alias mysqldump='mysqldump --opt'
 alias vncviewer='vncviewer DotWhenNoCursor=1'
 alias mpg123='mpg123 --verbose --control --title --long-tag'
